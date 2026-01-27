@@ -1,5 +1,5 @@
 --create_fct_session.sql
---Purpose - A fact table focusing on user sessions.
+--Purpose: A fact table focusing on user sessions.
 --Grain: one row per session(unique session_key) 
 --Primary key: user_key,session_id,session_key
 --Source: stg.events
