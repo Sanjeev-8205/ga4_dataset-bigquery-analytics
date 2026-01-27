@@ -4,7 +4,7 @@
 --Primary Key: session_date, source, medium, campaign
 --Source:stg.events and mart.fct_sessions
 --Note: Different Combinations of source, medium, campaign on each session_date is the grain. session_users is derived from the mart.fct_sessions.
--- - The channels are derived form different combinations of source, medium, campaign.
+-- - The channels are derived from different combinations of source, medium, campaign.
 
 CREATE OR REPLACE TABLE `sunny-web-483615-q0.mart.fct_channel_performance_daily` AS
 WITH daily_session_agg AS(
