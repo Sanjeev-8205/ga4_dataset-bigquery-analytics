@@ -3,7 +3,8 @@
 --Grain: 1 row per unique combination of event_date, last_completed_step and dropoff_page.
 --Primary Key: event_date, last_completed_step, dropoff_page
 --Source: stg.events
---Note: The last_completed_step is derived from the event_name column of stg.events table.
+--Note: -The last_completed_step is derived from the user funnel progression.
+-- -dropff_page represents the final page before the user exits the funnel.
 
 CREATE TABLE `sunny-web-483615-q0.mart.fct_dropoff_pages_daily` AS
 WITH daily_agg AS(
