@@ -1,18 +1,33 @@
-SQL files for the mart.
+## Mart Layer (Business Tables)
 
-This folder contains six sql files which is used to create the main tables of the mart and one sql file which is used to create the dataset mart.
+This folder contains the sql files used to create the **mart layer**, which represents business-ready fact tables built on top of the staging layer.
 
+## Dataset
+ - `create_mart_dataset.sql`
+   Creates the `mart` dataset in BigQuery
 
-Dataset sql file - create_mart_dataset.sql(just this one)
+## Mart Tables
+The following fact tables are created in the order listed below:
 
----------mart_tables--------
-1. create_fct_session.sql
-2. create_fct_channel_performance_daily.sql
-3. create_fct_funnel_steps_daily.sql
-4. create_fct_dropoff_pages_daily.sql
-5. create_fct_retention_cohorts.sql
-6. create_fct_retetion_by_channel.sql
+1. `create_fct_session.sql`
+   Session level fact table one row per session.
+   
+2. `create_fct_channel_performance_daily.sql`
+   Daily channel performance including purchases,revenue and conversion_rate.
 
-This is the order in which the mart tables were created in BigQuery.
+3. `create_fct_funnel_steps_daily.sql`
+   Daily user-level funnel progression and completion status.
+   
+4. `create_fct_dropoff_pages_daily.sql`
+   Daily aggregation of user drop-offs by funnel steps and page
+   
+5. `create_fct_retention_cohorts.sql`
+   Daily retention of the users by days since cohort date.
+   
+6. `create_fct_retention_by_channel.sql`
+   Daily retention of the users by channel and days since cohort date.
 
-These mart tables are further used along with stg.events table to answer different analytical questions.
+## Notes
+- All mart tables are primarily derived from `stg.events`.
+- Some mart tables are also derived from other mart tables when needed.
+- These tables serve as the foundation for analytical queries and Looker Studio Dashboards.
