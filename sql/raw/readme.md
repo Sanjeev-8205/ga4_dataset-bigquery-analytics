@@ -1,5 +1,14 @@
-SQL files for raw.
+## Staging Layer (Cleaned format of raw view)
+Contains sql files used to create the GA4 bigquery project.
 
-This folder contains the essential files required to create a raw dataset and a raw event view which references the main public GA4 dataset provided by BigQuery.
+## Dataset
+- `create_raw_dataset.sql`
+  Creates the `raw` dataset in BigQuery.
 
-Raw is the main source from which the stg is created.
+## View
+- `raw_source_view.sql`
+  Creates a raw view referencing the main source `bigquery-public-data.ga4_obfuscated_sample_ecommerce`
+
+## Notes
+- The raw view is derived by referencing the main source.
+- This view serves as the starting point and the staging tables is created using this view.
