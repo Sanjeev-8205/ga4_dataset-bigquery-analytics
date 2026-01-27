@@ -1,5 +1,5 @@
 --fct_funnel_steps_daily.sql
---Purpose: Fact table focused on user funnel status and number of funnel steps completed.
+--Purpose: To track the user funnel status and number of funnel steps completed.
 --Grain: unique user per event date
 --Primary: event_date,user_key
 --Source: stg.events
