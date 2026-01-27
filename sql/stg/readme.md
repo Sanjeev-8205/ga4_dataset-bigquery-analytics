@@ -1,9 +1,14 @@
-SQL files for staging.
+## Staging Layer (Cleaned format of raw view)
+This foder contains the sql files used to create the **staging layer**, which is later on referenced by mart layer tables.
 
-Contains the files used to create the stg dataset and stg_events_table.
+## Dataset
+- `create_stg_dataset.sql`
+  Creates the `stg` dataset in BigQuery.
 
-The stg_events is created from the raw view.
-Stg is the cleaned and transformed form of the raw view which is made ready to use for further uses in mart and analytics.
-The Looker Studio also uses the stg_events_table to create visual charts.
+## View
+- `create_stg_events_table.sql`
+  Creates a cleaned and transformed table using the raw view. 
 
-Note:- This is a very important step as rest of the tables tend to stem from this part.
+## Notes
+- The staging table is derived from the raw view.
+- This is a very important table used in both the **mart layer** and **Looker Studio Dashboards**.
