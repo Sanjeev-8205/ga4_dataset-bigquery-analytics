@@ -3,7 +3,7 @@
 --Grain: unique user per event date
 --Primary: event_date,user_key
 --Source: stg.events
---Note: -The funnel_status and last_completed_step is derived from the event_name column in the stg.events.
+--Note: -The funnel_status is derived from the event_name column in the stg.events.
 -- -The event_name column contains many values but only these 6 values are selected
 -- -event_name = view_item, add_to_cart, begin_checkout, add_shipping_info, add_payment_info, purchase as they are the most relevant steps.
 
