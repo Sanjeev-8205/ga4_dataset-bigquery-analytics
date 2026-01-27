@@ -1,4 +1,4 @@
---fct_funnel_steps_daily.sql
+--create_fct_funnel_steps_daily.sql
 --Purpose: To track the user funnel status and number of funnel steps completed.
 --Grain: unique user per event date
 --Primary: event_date,user_key
