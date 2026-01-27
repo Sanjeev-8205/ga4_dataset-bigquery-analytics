@@ -1,4 +1,4 @@
---fct_channel_performance_daiy.sql
+--create_fct_channel_performance_daiy.sql
 --Purpose: Fact table focusing on the each day channel performance and session conversion rate
 --Grain: unique(source, medium, campaign) on each session_date 
 --Primary Key: session_date, source, medium, campaign
