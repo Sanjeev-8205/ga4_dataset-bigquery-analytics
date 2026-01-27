@@ -1,6 +1,6 @@
 SQL files for the mart.
 
-This folder contains six different sql files which is used to create the main tables of the mart and another sql file which is used to create the dataset mart.
+This folder contains six sql files which is used to create the main tables of the mart and one sql file which is used to create the dataset mart.
 
 
 Dataset sql file - create_mart_dataset.sql(just this one)
