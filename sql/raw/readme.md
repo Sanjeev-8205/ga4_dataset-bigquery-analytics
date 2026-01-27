@@ -1,5 +1,5 @@
-## Staging Layer (Cleaned format of raw view)
-Contains sql files used to create the GA4 bigquery project.
+## RAW Layer
+Contains sql files used to create the **RAW layer**.
 
 ## Dataset
 - `create_raw_dataset.sql`
