@@ -8,7 +8,7 @@ A **Looker Studio dashboard** is built on top of the transformed data to provide
 
 ### SQL
 - The `sql/` folder contains the sql files used to create this project.
-- Read the readme in `sql/` folder to better understand its contents.
+- Read the readme in `sql/` folder for detailed explanations.
 
 ### Dashboards
 - The `Dashboards/` folder contains the snapshots of dashboard pages made using Looker Studio.
