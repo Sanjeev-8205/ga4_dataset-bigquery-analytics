@@ -1,5 +1,5 @@
 --highest_dropoff_funnel_step.sql
---Purpose: To aggregated the % of total dropoff pages contributed by each funnel step
+--Purpose: To aggregated the % of total dropoff pages contributed by each funnel step whose status is in progress.
 --Grain: 1 row unique funnel step
 --Source: mart.fct_funnel_steps_daily
 
