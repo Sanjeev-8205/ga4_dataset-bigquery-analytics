@@ -15,5 +15,5 @@ This is a project using the BigQuery GA4 Dataset, which solely uses bigquery to 
 - BigQuery
   To fetch the data and manipulate it to make it business ready.
   
--LookerStudio
+- LookerStudio
   Create the dashboard pages using the data processed in BigQuery.
