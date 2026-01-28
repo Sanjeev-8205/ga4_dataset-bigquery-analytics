@@ -1,5 +1,5 @@
 --11_invalid_returning_cohort_user_check.sql
---Purpose: To verify if the returning users and no of cohort users are valid.
+--Purpose: To verify if the returning users and no of cohort users are valid i.e., retention<=100%.
 --Source: mart.fct_retention_cohorts
 
 SELECT
