@@ -9,7 +9,7 @@ All the dashboards are powered by the mart tables, analytic views with limited u
 
 ### Funnel Overview (Page 1)
 **Purpose:**
-  - Understand how users progresses through the purchase funnel and where they dropoff.
+Understand how users progresses through the purchase funnel and where they dropoff.
 **Key Questions Answered**
   - What pecentage of users reach each funnel step daily from Nov 2020 till end of Dec 2020?
   - What is the daily funnel completion rate?
@@ -22,7 +22,7 @@ All the dashboards are powered by the mart tables, analytic views with limited u
   
 ### Channel Performance (Page 2)
 **Purpose:**
-  - Explains how each channel affected the revenue and conversion rate.
+Explains how each channel affected the revenue and conversion rate.
 **Key Questions Answered***
   - What is the total revenue, total number of purchasers and purchases?
   - What is the daily revenue by channel?
@@ -33,7 +33,7 @@ All the dashboards are powered by the mart tables, analytic views with limited u
   
 ### Drop-off Diagnostics (Page 3)
 **Purpose:**
-  - Identify the specific funnel steps and pages which make the user abandon the journey.
+Identify the specific funnel steps and pages which make the user abandon the journey.
 **Key Questions Answered**
   - Which is the page and funnel step which cause most user drop-off?
   - What is the total number of drop-off pages?
@@ -44,7 +44,7 @@ All the dashboards are powered by the mart tables, analytic views with limited u
 
 ### Retention (Page 4)
 **Purpose:**
-  - Analyze user retention over time using cohort analysis.
+Analyze user retention over time using cohort analysis.
 **Key Questions Answered**
   - What are the overall retention rates for D1, D7, D30(thirty days since cohort date)?
   - Does retention rate increase or deteriorate over cohort date?
