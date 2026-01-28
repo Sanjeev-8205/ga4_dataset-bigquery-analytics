@@ -12,7 +12,7 @@ A **Looker Studio dashboard** is built on top of the transformed data to provide
 
 ### Dashboards
 **Looker Studio Report**
-  `https://lookerstudio.google.com/s/kys1-s4bpxM`
+  `[https://lookerstudio.google.com/s/kys1-s4bpxM](https://lookerstudio.google.com/reporting/d7de9022-0bc6-4e6e-a326-53b60e349e6d)`
   
 - The `Dashboards/` folder contains the snapshots of dashboard pages made using Looker Studio.
 - Read the readme in `dashboards/` for an overview of each page.
