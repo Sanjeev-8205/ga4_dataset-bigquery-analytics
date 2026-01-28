@@ -1,5 +1,5 @@
 # ga4_dataset-bigquery-analytics
-This is a project using the BigQuery GA4 Dataset, which solely uses bigquery to extract valuable insights from the data and answer various business analytics questions. A Looker Studio dashboard is also made to provide visual access of the analytical data.
+This is a project using the **BigQuery GA4 Dataset**, which solely uses bigquery to extract valuable insights from the data and answer various business analytics questions. A **Looker Studio dashboard** is also made to provide visual access of the analytical data.
 
 ## Folders
 
@@ -12,8 +12,8 @@ This is a project using the BigQuery GA4 Dataset, which solely uses bigquery to 
 - Read the readme in `dashboards/` to get a good idea about it.
 
 ## Software Platforms
-- BigQuery
+- **BigQuery**
   To fetch the data and manipulate it to make it business ready.
   
-- LookerStudio
+- **LookerStudio**
   Create the dashboard pages using the data processed in BigQuery.
