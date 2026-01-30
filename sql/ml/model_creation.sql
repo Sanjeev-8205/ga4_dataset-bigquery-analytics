@@ -3,7 +3,7 @@
 --Source: ML.mart_channel_ml_features
 --Note: Trained the model using all the dates of November month.
 
-CREATE OR REPLACE MODEL `sunny-web-483615-q0.ML.channel_conversion_model`
+CREATE OR REPLACE MODEL `sunny-web-483615-q0.ML.channel_revenue_direction_lr`
 OPTIONS(
   model_type='logistic_reg',
   input_label_cols=['revenue_up'],
