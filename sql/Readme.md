@@ -27,5 +27,5 @@ This folder contains all the sql files used to build the GA4 Analytics Project. 
 - `dq/` (saved queries)
 
 ### Notes
-- All the transformations are done in BIgQuery SQL.
+- All the transformations are done in BigQuery SQL.
 - The mart layer layer serves as the single source of truth for the dashboards.
