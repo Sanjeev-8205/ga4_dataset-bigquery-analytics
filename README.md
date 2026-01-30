@@ -30,4 +30,4 @@ A **Looker Studio dashboard** is built on top of the transformed data to provide
 This project extends descriptive GA4 analytics with a machine learning pipeline that predicts whether channel-level revenue will increase the following day.
 
 The model is built using BigQuery ML, evaluated against heuristic baselines, and converted into confidence-based decision signals.  
-Detailed documentation and SQL scripts are available in the [`ml/`](./ml) directory.
+Detailed documentation and SQL scripts are available in the [`ml/`](./sql/ml) directory.
