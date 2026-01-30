@@ -5,7 +5,7 @@
 SELECT
   *
 FROM ML.EVALUATE(
-  MODEL `sunny-web-483615-q0.ML.channel_conversion_model`,
+  MODEL `sunny-web-483615-q0.ML.channel_revenue_direction_lr`,
   (
     SELECT
       channel,
