@@ -12,7 +12,7 @@ WITH predictions AS(
     predicted_revenue_up AS forecasted_revenue_up,
     predicted_revenue_up_probs[OFFSET(0)] AS predicted_revenue_up_probs
   FROM ML.PREDICT(
-    MODEL `sunny-web-483615-q0.ML.channel_conversion_model`,
+    MODEL `sunny-web-483615-q0.ML.channel_revenue_direction_lr`,
     (
       SELECT
         session_date,
