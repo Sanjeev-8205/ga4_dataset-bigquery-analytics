@@ -16,7 +16,6 @@ The project demonstrates an end-to-end analytics workflow: from raw event data t
 * [Technology Stack](#technology-stack)
 * [Predictive Modeling (BigQuery ML)](#predictive-modeling-bigquery-ml)
 * [How to Use This Project](#how-to-use-this-project)
-* [Future Improvements](#future-improvements)
 
 ---
 
