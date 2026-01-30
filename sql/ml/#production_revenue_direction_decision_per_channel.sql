@@ -9,7 +9,7 @@ SELECT
   AVG(revenue_up) AS avg_revenue_up
 FROM(
   SELECT
-    '2020-12-15',
+    session_date,
     channel,
     revenue_up,
     CASE
