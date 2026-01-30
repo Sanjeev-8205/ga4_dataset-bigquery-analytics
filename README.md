@@ -56,10 +56,12 @@ The data model follows a layered approach to ensure clarity, scalability, and re
 ```
 .
 ├── sql/
-│   ├── staging/
-│   ├── marts/
+    ├── raw/
+│   ├── stg/
+│   ├── mart/
+|   ├── analytics/
 │   └── ml/
-├── dashboards/
+├── Dashboard/
 │   ├── screenshots/
 │   └── README.md
 └── README.md
@@ -77,7 +79,7 @@ The [`sql/`](./sql) directory contains all SQL used in the project:
 * **Marts**
 
   * Builds analytics-ready fact and dimension tables
-  * Optimized for BI tools and reporting use cases
+  * Optimized for BI tools, Looker Studio and reporting use cases
 
 * **ML**
 
@@ -123,7 +125,6 @@ The [`dashboards/`](./Dashboard) directory includes:
 
 * Connects directly to BigQuery
 * Provides interactive dashboards and filters
-* Enables self-service analytics for stakeholders
 
 ---
 
