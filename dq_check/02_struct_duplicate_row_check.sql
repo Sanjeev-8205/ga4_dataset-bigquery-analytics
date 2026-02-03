@@ -3,6 +3,7 @@
 --CONTRACT:
 --Rows should never be duplicate.
 
+--REQUIRED INPUTS:
 --Table: stg.events
 --Critical_columns: session_key, event_ts, event_name
 
