@@ -3,7 +3,7 @@
 -- CONTRACT:
 -- Purchase revenue can never be negative.
 
---REQUIRE INPUTS:
+--REQUIRED INPUTS:
 -- Critical_column: purchase_revenue
 
 SELECT
