@@ -1,4 +1,4 @@
--- 04_metrics_null_transaction_id_check.sql
+-- 04_metrics_null_transaction_id_tolerance_check.sql
 
 -- CONTRACT:
 -- For purchase events, transaction_id must be present.
