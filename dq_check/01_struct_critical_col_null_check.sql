@@ -1,9 +1,14 @@
---1_stg_null_events_check.sql
---Purpose: To check the null count.
---Source: stg.events
---Notes: 0 null counts is best.
+--01_struct_critical_col_null_check.sql
+
+-- CONTRACT:
+-- Critical identifier columns should never be null.
+
+-- table: stg.events
+-- Critical columns: event_date, event_ts, event_name, user_key, session_key
 
 SELECT
+  COUNT(*) AS total_rows,
+
   COUNTIF(event_date IS NULL) AS null_event_date,
   COUNTIF(event_ts IS NULL) AS null_event_timestamp,
   COUNTIF(event_name IS NULL) AS null_event_name,
