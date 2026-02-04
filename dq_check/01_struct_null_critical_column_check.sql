@@ -1,9 +1,11 @@
---01_null_struct_critical_column_check.sql
+-- 01_struct_null_critical_column_check.sql
 
 -- CONTRACT:
--- Critical identifier columns should never be null.
+-- Critical identifier columns must never be null.
+-- Any vioation indicates invalid structure.
+-- This is expected to return 0 rows.
 
---REQUIRED INPUTS:
+-- REQUIRED INPUTS:
 -- table: stg.events
 -- Critical columns: event_date, event_ts, event_name, user_key, session_key
 
