@@ -12,7 +12,7 @@ Data is considered valid if:
 ## Categories of check
 
 ### Structural Checks
-Ensure the shape of the data correctly i.e. no nulls, no duplicates.
+Ensure the shape of the data is correct i.e. no nulls, no duplicates.
 
 ### Metric Integrity Checks
 Validate metrics and rates.
@@ -20,7 +20,7 @@ Validate metrics and rates.
 
 ### Logic/Relationship Checks
 Ensures the relationship between different metrics are consistent and holds.
-(eg: purchases>purchasers)
+(eg: purchases>=purchasers)
 
 ## How to use
 
