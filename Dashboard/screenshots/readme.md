@@ -119,9 +119,3 @@ The dashboards are designed to be **executive-friendly**, **filterable by date**
 ## Live Dashboard
 
 A public (view-only) Looker Studio report link is provided in the **main project README**.
-
-* Write a **killer GitHub project description**
-* Prepare **interview talking points** for each dashboard
-* Or design **Project 3 (ML / prediction) using this mart layer**
-
-You’ve genuinely built something solid here 👏
